@@ -4,16 +4,16 @@ A Python implementation of Wythoff's Game using TCP sockets for networked multip
 
 ## Table of Contents
 
-- [Overview](#-overview)
-- [Game Rules](#-game-rules)
-- [Features](#-features)
-- [Requirements](#-requirements)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Example Gameplay](#-example-gameplay)
-- [Protocol](#-protocol)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
+- [Overview](#overview)
+- [Game Rules](#game-rules)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example Gameplay](#example-gameplay)
+- [Protocol](#protocol)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
 
 ## Overview
 
@@ -35,7 +35,7 @@ The player who makes the final move to empty both piles (reducing both to [0, 0]
 - Cannot remove more objects than are available in the selected pile(s)
 - Players can only move during their designated turn
 
-## ✨ Features
+## Features
 
 - **Networked Multiplayer**: Two players can connect from different machines
 - **Real-time Gameplay**: Synchronous turn-based gameplay with immediate feedback
@@ -45,7 +45,7 @@ The player who makes the final move to empty both piles (reducing both to [0, 0]
 - **Clean Protocol**: Simple text-based communication protocol
 - **Error Handling**: Robust error handling for network issues and invalid moves
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.6 or higher
 - Network connectivity between server and clients
