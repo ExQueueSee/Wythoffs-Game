@@ -4,16 +4,16 @@ A Python implementation of Wythoff's Game using TCP sockets for networked multip
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Game Rules](#game-rules)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example Gameplay](#example-gameplay)
-- [Protocol](#protocol)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Game Rules](#-game-rules)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Example Gameplay](#-example-gameplay)
+- [Protocol](#-protocol)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
 
 ## 🎮 Overview
 
