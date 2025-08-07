@@ -2,7 +2,7 @@
 
 A Python implementation of Wythoff's Game using TCP sockets for networked multiplayer gameplay. This project features a server that manages the game state and coordinates between two players connected via TCP clients.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Game Rules](#-game-rules)
@@ -15,11 +15,11 @@ A Python implementation of Wythoff's Game using TCP sockets for networked multip
 - [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
 
-## 🎮 Overview
+## Overview
 
 Wythoff's Game is a variant of the classic Nim game played with two piles of objects. This implementation allows two players to connect over a network and play against each other in real-time. The server manages the game state, validates moves, and coordinates turn-based gameplay between the connected clients.
 
-## 🎯 Game Rules
+## Game Rules
 
 Wythoff's Game is played with two piles of objects. Players take turns making one of three possible moves:
 
@@ -51,7 +51,7 @@ The player who makes the final move to empty both piles (reducing both to [0, 0]
 - Network connectivity between server and clients
 - No external dependencies (uses only Python standard library)
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -61,7 +61,7 @@ cd Wythoffs-Game
 
 2. No additional installation required - uses only Python standard library.
 
-## 🚀 Usage
+## Usage
 
 ### Starting the Server
 
@@ -110,7 +110,7 @@ When it's your turn, enter moves in the format: `<pile_index> <count>`
 - `1 2`: Remove 2 objects from pile 1  
 - `2 1`: Remove 1 object from both piles
 
-## 🎪 Example Gameplay
+## Example Gameplay
 
 ### Server Console:
 ```
@@ -171,7 +171,7 @@ Game over. Player 0 is the winner.
 Server has closed the connection.
 ```
 
-## 📡 Protocol
+## Protocol
 
 The game uses a simple text-based protocol over TCP:
 
@@ -189,7 +189,7 @@ The game uses a simple text-based protocol over TCP:
 ### Client Messages:
 - `<pile_index> <count>` - Move commands (e.g., "2 3", "0 1", "1 4")
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 WythoffsGame/
@@ -212,25 +212,17 @@ WythoffsGame/
 - User input handling
 - Game state display
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
+## License
 
 This project is part of an academic assignment for BIL452 - Network Programming course.
 
-## 🐛 Known Issues
+## Known Issues
 
 - Server must be restarted between games
 - No spectator mode implemented
 - No game replay functionality
 
-## 🔮 Future Enhancements
-
-- [ ] Support for multiple concurrent games
-- [ ] Game replay and logging system  
-- [ ] Spectator mode
-- [ ] GUI client interface
-- [ ] Game statistics tracking
-- [ ] Reconnection support for dropped connections
